@@ -1,0 +1,4 @@
+export enum errorCode {
+    MSG0001 = "NO_AUTHORIZATION_IN_HEADER",
+    MSG0002 = "UNAUTHORIZED"
+}
