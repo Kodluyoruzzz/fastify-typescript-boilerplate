@@ -1,14 +1,14 @@
 import baseRoutes from "./routes/BaseRoutes";
 import {FastifyInstance} from "fastify";
 
-const routers =
+const routes =
     [
         baseRoutes
     ]
 class Router {
 
     public prepareRoutes(fastify:FastifyInstance){
-        routers.forEach((route) => {
+        routes.forEach((route) => {
             fastify.register(route)
         })
 
