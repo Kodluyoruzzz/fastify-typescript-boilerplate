@@ -26,7 +26,7 @@ türünde isimlendirmeler kullanılmalıdır.
 npm run start
 ``
 
-### Development ortamı için (node version < 17.0)
+### Development ortamı için 
 ``
 npm run dev
 ``
